@@ -26,7 +26,7 @@ import ProtectedAuth from './Guards/ProtectedAuth'
 import ProductsSearch from './Pages/ProductsSearch'
 import 'aos/dist/aos.css';
 import AOS from 'aos';
-import Loader from './Pages/loader'
+import Loader from './Pages/Loader'
 function App() {
   const [loader, setLoader] = useState(true);
   useEffect(() => {
