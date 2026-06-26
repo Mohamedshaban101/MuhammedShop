@@ -1460,6 +1460,39 @@ const Products = [
         rating : '5',
         imgs : ['https://res.cloudinary.com/dbggryeo1/image/upload/v1782404159/spinach_dmxxuv.jpg']
     },
+    {
+        id: 124,
+        title: "T-Shirt",
+        desc : 'Embroidered Satin Saree...',
+        regular_price : 120,
+        sale_price : 100,
+        category: "groc",
+        brand : 'nike',
+        rating : '5',
+        imgs : ['https://res.cloudinary.com/dbggryeo1/image/upload/v1782470780/peas_rmspq5.jpg']
+    },
+    {
+        id: 125,
+        title: "T-Shirt",
+        desc : 'Embroidered Satin Saree...',
+        regular_price : 120,
+        sale_price : 100,
+        category: "groc",
+        brand : 'nike',
+        rating : '5',
+        imgs : ['https://res.cloudinary.com/dbggryeo1/image/upload/v1782470693/artichoke_roj2vl.jpg']
+    },
+    {
+        id: 126,
+        title: "T-Shirt",
+        desc : 'Embroidered Satin Saree...',
+        regular_price : 120,
+        sale_price : 100,
+        category: "groc",
+        brand : 'nike',
+        rating : '5',
+        imgs : ['https://res.cloudinary.com/dbggryeo1/image/upload/v1782470871/olive_thbzwz.jpg']
+    },
 ]
 
 export default Products;

@@ -20,7 +20,7 @@ const ContextSlidesPerViewProvider = ({ children }) => {
         return 1;
     }
     return (
-        <ContextSlidesPerView.Provider value={{ getSlidesPerView, windowWidth }}>
+        <ContextSlidesPerView.Provider value={{ getSlidesPerView }}>
             {children}
         </ContextSlidesPerView.Provider>
     );
