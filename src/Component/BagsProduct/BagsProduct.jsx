@@ -9,7 +9,7 @@ import { RiArrowLeftSLine, RiArrowRightSLine } from "react-icons/ri";
 import ProductItem from '../ProductItem/ProductItem';
 import Products from '../../Products';
 import { Link, useNavigate } from 'react-router-dom';
-import { ContextSlidesPerView } from '../../Context/ContextSlidesPerview';
+import { ContextSlidesPerView } from '../../Context/ContextSlidesPerView';
 const BagsProduct = () => {
     const {getSlidesPerView} = useContext(ContextSlidesPerView);
     const navigate = useNavigate();

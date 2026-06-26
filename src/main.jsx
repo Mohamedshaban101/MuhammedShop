@@ -12,7 +12,7 @@ import ContextUserProvider from './Context/ContextUser.jsx'
 import ContextReviewProvider from './Context/ContextReview.jsx'
 import ContextOrderProvider from './Context/ContextOrder.jsx'
 import ScrollToTop from './Component/ScrollToTop/ScrollToTop.jsx'
-import ContextSlidesPerViewProvider from './Context/ContextSlidesPerview.jsx'
+import ContextSlidesPerViewProvider from './Context/ContextSlidesPerView.jsx'
 createRoot(document.getElementById('root')).render(
 
   <BrowserRouter>

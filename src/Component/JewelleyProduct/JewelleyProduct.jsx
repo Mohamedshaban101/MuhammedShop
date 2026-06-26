@@ -9,7 +9,7 @@ import { RiArrowLeftSLine, RiArrowRightSLine } from "react-icons/ri";
 import ProductItem from '../ProductItem/ProductItem';
 import Products from '../../Products';
 import { Link } from 'react-router-dom';
-import { ContextSlidesPerView } from '../../Context/ContextSlidesPerview';
+import { ContextSlidesPerView } from '../../Context/ContextSlidesPerView';
 const JewelleyProduct = () => {
     const { getSlidesPerView } = useContext(ContextSlidesPerView);
     const filteredProducts = Products.filter(product =>
